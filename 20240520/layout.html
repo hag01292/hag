@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用div來排版</title>
+    <style>
+    body{
+            margin: 0px;
+    }
+    #container{
+        width: 80%;
+        background-color: cyan;
+        margin: 0px auto;
+    }
+    #main{
+        height: 800px;
+    }
+    #header{
+        height: 300px;
+        background-color: lightblue;
+    }
+    #nav{
+        height: 100px;
+        background-color: aquamarine;
+    }
+    #section{
+        min-height: 800px;
+        width: 650px;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: aqua;
+    }
+    #aside{
+        min-height: 800px;
+        width: 400px;
+        background-color: blue;
+        float: left;
+    }
+
+    #footer{
+        height: 200px;
+        clear: both;
+        background-color: rgb(59, 194, 194);
+    }
+    .picture{
+        width: 100px;
+        height: 100px;
+        background-color: lightcyan;
+        background-image: url(20240520/img/Gear-Lostvayne_Render.webp);
+        background-size: cover;
+    }
+    .items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin: 20px;
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header"></div>
+        <div id="nav"></div>
+        <div id="main">
+            <div id="section">
+                <div class="item">
+                    <div class="picture"></div>
+                    <h1>112111234</h1>
+                    <p>RuanChenJiaXing</p>
+                </div>
+            </div>
+            <div id="aside"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

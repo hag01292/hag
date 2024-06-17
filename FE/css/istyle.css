@@ -1,0 +1,110 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-image: url(/FE/img/5.jpg);
+} 
+
+header { 
+    background-color: none;
+    color: #ffffff; 
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgba(95, 18, 48, 0.8);
+} 
+
+.title {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+nav { 
+    width: 1080px;
+    margin: 0px auto; 
+    font-size: 150%;
+    background-color: #4E1026; 
+    padding: 10px;
+    text-align: center;
+    border: solid 1px #FA005A;
+} 
+
+nav a { 
+    color: #FA005A; 
+    text-decoration: none; 
+    padding: 10px; 
+    margin-right: 10px; 
+    display: inline-block;
+}
+
+div {
+        background-color: #4E1026;
+        width: 1100px;
+        margin: 0px auto;
+        height: auto;
+        border: solid 2px #FA005A;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+.sub {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: none;
+    background-image: url(/FE/img/6.jpg);
+    font-size: 200%;
+    text-align: center;
+    line-height: 0.5 ;
+    color: #FA005A;
+    border-radius: 15px;
+    box-shadow: 1px 5px 10px #172225;
+    text-shadow: 1px 2px 5px rgb(51, 16, 16);
+    box-shadow: 0px 0px 5px #532ae7 inset;
+}
+
+.imgL {
+    float: left;
+    margin: 40px auto;
+    padding: 0px;
+    border: 1px solid #FA005A;
+    border-radius: 15px;
+}
+
+.block {
+    display: inline-block;
+    justify-content: space-around;
+}
+    
+.info {
+    padding: 70px;
+    font-size: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sub {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: none;
+    background-image: url(/FE/img/6.jpg);
+    font-size: 200%;
+    text-align: center;
+    line-height: 0.5 ;
+    color: #FA005A;
+    border-radius: 15px;
+    box-shadow: 1px 5px 10px #172225;
+    text-shadow: 1px 2px 5px rgb(51, 16, 16);
+    box-shadow: 0px 0px 5px #532ae7 inset;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
