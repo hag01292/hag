@@ -48,23 +48,6 @@ div {
         text-align: center;
     }
 
-.sub {
-    width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    border: 1px solid #000000;
-    background-color: none;
-    background-image: url(FE/img/6.jpg);
-    font-size: 200%;
-    text-align: center;
-    line-height: 0.5 ;
-    color: #FA005A;
-    border-radius: 15px;
-    box-shadow: 1px 5px 10px #172225;
-    text-shadow: 1px 2px 5px rgb(51, 16, 16);
-    box-shadow: 0px 0px 5px #532ae7 inset;
-}
-
 .imgL {
     float: left;
     margin: 40px auto;
